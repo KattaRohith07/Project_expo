@@ -25,14 +25,16 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     padding: 10px 2%;
+    flex-direction: row-reverse;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-    
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -40,6 +42,7 @@ nav ul li a{
     font-weight: bold;
     font-family: 'Metamorphous', cursive;
 }
+
 nav ul li a::after{
     content:  '';
     width: 0;
@@ -58,7 +61,7 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .header-text img {
