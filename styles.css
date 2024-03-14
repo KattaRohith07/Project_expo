@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/back.jpg);
+    background-image: url(./images/back2.jpg);
    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,6 +26,7 @@ body{
 .container{
     padding: 10px 10%;
 }
+
 nav {
     display: flex;
     flex-direction: row-reverse;
@@ -34,6 +35,8 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000; 
+    transition: background-color 0.3s ease;
+    background-color: transparent;
 }
 
 nav ul {
@@ -72,6 +75,12 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+nav .fa-solid{
+    display: none;
+}
+nav .fa-regular{
+    display: none;
+}
 .header-text {
     display: flex;
     align-items: center;
@@ -107,4 +116,98 @@ h4{
 .colgs {
     margin-left: auto;
     margin-right: auto;
+}
+.btn{
+    display: block;
+    margin-left: 45%;
+    margin-top: 5%;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff004f;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+    cursor: pointer;
+}
+#services{
+    padding: 30px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background:#262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.services-list div p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #ff004f;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 45%; /* Adjusted flex-basis to give more space to the video */
+}
+
+.about-col-1 video {
+    width: 100%;
+    height: auto; /* Changed to auto to maintain aspect ratio */
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 50%; /* Adjusted flex-basis to give more space to the text */
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
 }
