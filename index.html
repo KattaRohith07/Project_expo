@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./images/sjit.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/c6920433d0.js" crossorigin="anonymous"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
     
     <title>InnovateXpo</title>
 </head>
@@ -19,7 +20,7 @@
                     <li><a href="#themes">Themes</a></li>
                     <li><a href="#">Rules</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#eventcal">Event calender</a></li>
+                    <li><a href="#event">Event calender</a></li>
                     <li><a href="#map">Directions</a></li>
                     <li><a href="https://forms.gle/XpV7iaMxTtZVx8b79">Registration</a></li>
                     <i class="fa-regular fa-x" onclick="closemenu()"></i>
@@ -153,6 +154,73 @@
 
 
 
+
+<!--This is the main container that contains the whole timeline.-->
+<section class="design-section" id="event">
+    <h1 class="sub-title">Timeline</h1>
+<div class="timeline">
+    
+
+          <!--Well, The reason for this div is to fill space. 
+This space is technically used for keeping dates, 
+but I didn't find the need for dates. However, I'll provide 
+you the styling for dates, so that you can use it if you 
+wanted to.-->
+                  <div class="timeline-empty">
+                  </div>
+
+<!--This is the class where the timeline graphics are 
+housed in. Note that we have timeline-circle 
+here for that pointer in timeline.-->
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class="timeline-component timeline-content">
+                <h3 style="color: white;
+                font-family: 'Metamorphous', cursive;">Date</h3>
+                <p>Registration Starts</p>
+           </div>
+                <div class="timeline-component timeline-content">
+                         <h3 style="color: white;
+                         font-family: 'Metamorphous', cursive;">Date</h3>
+                         <p>Registration Ends.</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class=" timeline-component timeline-content">
+                <h3 style="color: white;
+                font-family: 'Metamorphous', cursive;">Date</h3>
+                <p>Announcement of Shortlisted teams.</p>
+           </div>
+           <div class="timeline-empty">
+        </div>
+
+        <div class="timeline-empty">
+        </div>
+
+       <div class="timeline-middle">
+           <div class="timeline-circle"></div>
+       </div>
+           <div class="timeline-component timeline-content">
+            <h3 style="color: white;
+            font-family: 'Metamorphous', cursive;">Date</h3>
+            <p>Event Starts</p>
+       </div>
+
+       </div>
+    </div> 
+</section>
 
 
 <section class="bg-img pt100 pb100" style="" id="map">
