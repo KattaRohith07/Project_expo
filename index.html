@@ -19,7 +19,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#themes">Themes</a></li>
                     <li><a href="#">Rules</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="#event">Event calender</a></li>
                     <li><a href="#map">Directions</a></li>
                     <li><a href="https://forms.gle/XpV7iaMxTtZVx8b79">Registration</a></li>
@@ -223,6 +223,40 @@ here for that pointer in timeline.-->
 </section>
 
 
+<div class="accordion" id="faq">
+    <h1>Frequently Asked Questions</h1>
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion1">
+        <label for="accordion1" class="accordion-item-title"><span class="icon"></span>What is SEO, and why is it important for online businesses?</label>
+        <div class="accordion-item-desc">SEO, or Search Engine Optimization, is the practice of optimizing a website to improve its visibility on search engines like Google. It involves various techniques to enhance a site's ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic, increases visibility, and ultimately leads to higher conversions.</div>
+    </div>
+
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion2">
+        <label for="accordion2" class="accordion-item-title"><span class="icon"></span>How long does it take to see results from SEO efforts?</label>
+        <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
+    </div>
+
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion3">
+        <label for="accordion3" class="accordion-item-title"><span class="icon"></span>What are the key components of a successful SEO strategy?</label>
+        <div class="accordion-item-desc">A successful SEO strategy involves various components, including keyword research, on-page optimization, quality content creation, link building, technical SEO, and user experience optimization. These elements work together to improve a website's relevance and authority in the eyes of search engines.</div>
+    </div>
+
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion4">
+        <label for="accordion4" class="accordion-item-title"><span class="icon"></span>How does mobile optimization impact SEO?</label>
+        <div class="accordion-item-desc">Mobile optimization is crucial for SEO because search engines prioritize mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices are more likely to rank higher in search results.</div>
+    </div>
+
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion5">
+        <label for="accordion5" class="accordion-item-title"><span class="icon"></span>What is the role of backlinks in SEO, and how can they be acquired?</label>
+        <div class="accordion-item-desc">Backlinks, or inbound links from other websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site's authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It's important to focus on natural and ethical link-building practices.</div>
+    </div>
+
+</div>
+
 <section class="bg-img pt100 pb100" style="" id="map">
     <div class="container">
         <div class="section_title mb30">
@@ -251,7 +285,16 @@ here for that pointer in timeline.-->
         sidemenu.style.right = "-200px";
     }
     </script>
+<script>
+    const toggles = document.querySelectorAll(".faq-toggle");
 
+toggles.forEach((toggle) => {
+  toggle.addEventListener("click", () => {
+    toggle.parentElement.classList.toggle("active");
+  });
+});
+
+</script>
     
 </body>
 </html>
