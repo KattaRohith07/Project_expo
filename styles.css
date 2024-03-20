@@ -174,7 +174,7 @@ h4{
     font-family: 'Metamorphous', cursive;
 }
 .services-list div p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: white;
     font-family: 'Metamorphous', cursive;
@@ -1009,7 +1009,7 @@ a {
 
 a:hover {
     font-size: 16px;
-    color: #9598a7;
+    font-weight: bolder;
 }
 
 
