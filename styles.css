@@ -649,6 +649,8 @@ font-family: 'Metamorphous', cursive;
    
       
 }
+
+
   
   .content {
     display: flex;
@@ -658,7 +660,16 @@ font-family: 'Metamorphous', cursive;
     flex-wrap: wrap;
     max-width: 1000px;
   }
-  
+  .back h3 {
+	display: inline-block;
+	margin: 50px auto 30px auto;
+	transform: translateZ(50px);
+	color: rgb(116, 116, 116);
+}
+.back h1{
+    color: black;
+    font-weight: bold;
+}
   .heading {
     width: 100%;
     margin-left: 1rem;
