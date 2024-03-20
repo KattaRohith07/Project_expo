@@ -1157,3 +1157,93 @@ a:hover {
         font-size: 2em;
     }
 }
+@media only screen and (max-width:600px){
+    #header{
+        background-image: url(./images/black_-_13495\ \(540p\).gif);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h2{
+        font-size: 16px;
+    }
+    .header-text img{
+        width: 10px;
+        height: 10px;
+    }
+    .header-text span{
+        font-size: 13px;
+    }
+    .colg{
+        font-size: 16px;
+    }
+    nav .fa-solid{
+        color: #ff004f;
+        display: block;
+        font-size: 25px;
+    }
+    nav .fa-regular{
+        display: block;
+        font-size: 16px;
+        color: brown;
+        margin-top: -250px;
+        margin-left: 20px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    .btn1.btn2{
+        margin-left: 35%;
+    }
+    nav ul.fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    nav ul.fa-regular{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        margin-top: -200px;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+
+   .services-list div h2{
+    font-size: 50px;
+   }
+   .services-list div p{
+    font-size: 50px;
+   }
+   .work-list img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+   }
+}
