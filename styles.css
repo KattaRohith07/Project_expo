@@ -963,7 +963,6 @@ img {
         bottom: 20px;
         left: 20px;
         color: black;
-        background-color: white;
         opacity: 0;
         transition: opacity 0.3s;
         cursor: pointer;
