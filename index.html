@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./images/sjit.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/c6920433d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
     
     <title>InnovateXpo</title>
@@ -18,12 +19,12 @@
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#themes">Tracks</a></li>
+                     <li><a href="#event">Event calender</a></li>
                     <li><a href="#terms-of-service">Rules</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#event">Event calender</a></li>
                     <li><a href="#Organizers">Organizers</a></li>
                     <li><a href="#map">Directions</a></li>
-                    <li><a href="https://forms.gle/XpV7iaMxTtZVx8b79">Registration</a></li>
+                    <li><a href="https://forms.gle/E29FD2wrCyLVxvH19">Registration</a></li>
                     <i class="fa-regular fa-x" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -31,9 +32,10 @@
             
             <div class="header-text">
                 
-                <img class="lor" src="images/sjit.png" style="width: 150px;height: 150px;">
+                <!-- <img class="lor" src="images/sjit.png" style="width: 150px;height: 150px;">
                 <h2 class="colg">St.Joseph's Institute of Technology <br> <span>St.Joseph's Group of Institutions<br>OMR,Chennai-119</span></h2>
-                <img class="lol" src="images/Logo30years.png" style="width: 155px;height: 155px;">
+                <img class="lol" src="images/Logo30years.png" style="width: 155px;height: 155px;"> -->
+                <img src="./images/Logo30years (1).png" alt="" class="lol" style="width: 100%;height: 100%;">
                 
             </div>
             
@@ -41,7 +43,7 @@
         </div>
         <h1 style="text-align: center; margin-top: 10px;font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold; font-size: 100px;">InnovateXpo</h1>
         <h3 style="text-align: center; margin-top: 10px;font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold; font-size: 40px;">EXCITING PRIZES!!!</h3>
-        <a href="https://forms.gle/XpV7iaMxTtZVx8b79" download class="btn1 btn2">Register Now</a>
+        <a href="https://forms.gle/E29FD2wrCyLVxvH19" download class="btn1 btn2">Register Now</a>
     </div>
 
     <div id="services">
@@ -129,51 +131,47 @@
 </div>
 
 
-<div id="themes">
-    <div class="container">
-        <h1 class="sub-title">Tracks</h1>
-        <div class="work-list">
-            <div class="work" style="width: 100%;height: 100%;">
-                <img src="./images/iot.jpg" alt="" >
-                <div class="layer">
-                    <h3>IOT</h3>
-                    
-                    </div>
-            </div>
-            <div class="work" style="width: 100%;height: 100%;">
-                <img src="./images/arvr.jpg" alt="" >
-                <div class="layer">
-                    <h3>AR/VR</h3>
-                    
-                    </div>
-            </div>
-            <div class="work" style="width: 100%;height: 100%;">
-                <img src="./images/ai.jpeg" alt="" >
-                <div class="layer">
-                    <h3>AIML</h3>
-                    
-                    </div>
-            </div>
-            <div class="work" style="width: 100%;height: 100%;">
-                <img src="./images/fintech.jpg" alt="" >
-                <div class="layer">
-                    <h3>Fintech/Gametech</h3>
-                   
-                    </div>
-            </div>
-            <div class="work" style="width: 100%;height: 100%;">
-                <img src="./images/open.jpg" alt="" >
-                <div class="layer">
-                    <h3>Open Innovation</h3>
-                   
-                    </div>
-            </div>
-            
+<div class="homepage" id="themes">
+    <h1 class="sub-title">Tracks</h1>
+    <div class="directory-menu">
+        
+      <div class="menu-item">
+        <div class="background-image" style="background-image: url('./images/ml.jpg')" />
+        <div class="content">
+          <h1 class="title">AIML</h1>
         </div>
+      </div>
     </div>
-</div>
+    <div class="menu-item">
+      <div class="background-image" style="background-image: url('./images/iot.jpg')" />
+      <div class="content">
+        <h1 class="title">IOT</h1>
 
-
+      </div>
+    </div>
+  </div>
+  <div class="menu-item">
+    <div class="background-image" style="background-image: url('./images/arvr.jpg')" />
+    <div class="content">
+      <h1 class="title">AR/VR</h1>
+    </div>
+  </div>
+  </div>
+  <div class="menu-item large">
+    <div class="background-image" style="background-image: url('./images/fintech.jpg')" />
+    <div class="content">
+      <h1 class="title">Fintech <br>Gametech</h1>
+    </div>
+  </div>
+  </div>
+  <div class="menu-item large">
+    <div class="background-image" style="background-image: url('./images/open.jpg')" />
+    <div class="content">
+      <h1 class="title">Open Innovation</h1>
+    </div>
+  </div>
+  </div>
+  </div>
 
 
 <!--This is the main container that contains the whole timeline.-->
@@ -298,9 +296,97 @@ here for that pointer in timeline.-->
     </div>
 
 </div>
+<div id="Organizers">
+<h1 class="sub-title">Organizers</h1>
+<div class="profile-cards">
 
+    <div class="card card-1">
+  
+      <img src="./images/rohith.jpeg">
+  
+      <div class="card-details">
+  
+        <h3 class="card-details-title">Katta Rohith <br>9949561443 <br>kattarohith99@gmail.com</h3>
+  
+        <div class="card-details-social">
+  
+          <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/katta-rohith-85b382237/"><i class="fab fa-linkedin"></i></i></a></li>
+          </ul>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    <div class="card card-2">
+  
+      <img src="https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+  
+      <div class="card-details">
+  
+        <h3 class="card-details-title">Adams Issac Raj <br>8838664818 <br>adamsissacraj04@gmail.com</h3>
+  
+        <div class="card-details-social">
+  
+          <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/adams-issac-raj-6a4579253/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    <div class="card card-3">
+  
+      <img src="./images/eugine.jpeg">
+  
+      <div class="card-details">
+  
+        <h3 class="card-details-title">Eugine Carmel <br>9688101004 <br>euginecarmel@gmail.com</h3>
+  
+        <div class="card-details-social">
+  
+          <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/eugine-carmel-518494245/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+  
+        </div>
+  
+      </div>
+  
+    </div>
 
-
+    <div class="card card-3">
+  
+        <img src="./images/legin.jpeg">
+    
+        <div class="card-details">
+    
+          <h3 class="card-details-title">Legin <br>9789655939 <br>leginml2004@gmail.com</h3>
+    
+          <div class="card-details-social">
+    
+            <ul>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/legin-ml/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+  
+  </div>
+  </div>
+  
 <section class="bg-img pt100 pb100" style="" id="map">
     <div class="container">
         <div class="section_title mb30">
