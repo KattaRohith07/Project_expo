@@ -500,7 +500,7 @@ h4{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/back2.jpg);
+        background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
     }
     .header-text{
         margin-top: 100%;
@@ -792,105 +792,6 @@ a:hover {
         font-size: 2em;
     }
 }
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-
-.profile-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-  margin: 30px;
-  color: black;
-}
-
-.card {
-  width: 300px;
-  height: 400px;
-  position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-}
-
-.card:hover .card-details,
-.card:hover .card-details-social a {
-  transform: none;
-}
-
-.card:hover img {
-  filter: blur(3px);
-  transform: scale(1.2);
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s;
-}
-
-.card-details {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 20px 10px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  transform: translateY(100%);
-  transition: all 0.3s;
-}
-
-.card-details-title {
-  font-size: 18px;
-}
-
-.card-details-social ul,
-.card-details-social ul li a {
-  display: flex;
-}
-
-.card-details-social ul li {
-  list-style-type: none;
-  margin-right: 15px;
-}
-
-.card-details-social ul li a {
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px;
-  color: #272727;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 5px 4px grey;
-  cursor: pointer;
-  transform: translateY(50px);
-  transition: all 0.3s;
-}
-
-.card-details-social ul li:nth-child(1) a {
-  transition-delay: 0.1s;
-}
-
-.card-details-social ul li:nth-child(2) a {
-  transition-delay: 0.2s;
-}
-
-.card-details-social ul li:nth-child(3) a {
-  transition-delay: 0.3s;
-}
-
-.card-details-social ul li a svg {
-  width: 20px;
-  height: 20px;
-}
-
-.card:hover .card-details-social ul li a {
-  transform: translateY(0);
-} */
 
 .handles svg path{
     stroke:#e2e2e2!important;
@@ -957,19 +858,27 @@ img {
     .slide:hover .image-container {
         transform: scale(1.1);
     }
-    
+    .card-details-title {
+        font-size: 18px;
+      }
     .details {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding: 20px 20px;
+        width: 100%;
         position: absolute;
-        bottom: 20px;
-        left: 20px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
         color: black;
-        opacity: 0;
-        transition: opacity 0.3s;
-        cursor: pointer;
+        transform: translateY(100%);
+        transition: all 0.3s;
     }
     
     .slide:hover .details {
         opacity: 1;
+        transform: translateY(0);
     }
     
 
