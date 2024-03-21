@@ -125,7 +125,6 @@ h4{
 }
 .btn1{
     display: block;
-    margin-left: 45%;
     margin-top: 2%;
     width: fit-content;
     border: 1px solid #ff004f;
@@ -135,11 +134,7 @@ h4{
     color: white;
     transition: background 0.5s;
 }
-.btn1:hover{
-    background: #ff004f;
-    transform: scale(1.5);
-    transition: 0.5s;
-}
+
 .btn1.btn2{
     display: inline-block;
     background: #ff004f;
@@ -219,6 +214,7 @@ h4{
 .about-col-2 p{
     color: white;
     font-family:sans-serif;
+    text-align: justify;
 }
 .sub-title {
     font-size: 60px;
@@ -796,7 +792,7 @@ a:hover {
         font-size: 2em;
     }
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 
 .profile-cards {
@@ -894,8 +890,93 @@ img {
 
 .card:hover .card-details-social ul li a {
   transform: translateY(0);
-}
-.homepage {
+} */
+
+.handles svg path{
+    stroke:#e2e2e2!important;
+  }
+  .dots span{
+    background:#fff!important;
+    opacity:0.5
+  }
+  .dots span.active{
+    opacity:1
+  }
+    .PostSlide{max-width:1300px;margin:40px auto;}
+    .PostSlide{max-width:1300px;margin:10px auto 40px;}
+    .PostSlide .innerContainer .slider{display:flex;width:1280px;overflow-x:hidden;margin:auto;}
+    .PostSlide .innerContainer .slider .slide{display:block;background-size: cover!important;background-position: center center!important;min-width:280px;height:420px;margin:0 10px;}
+    .PostSlide .innerContainer .slider{position:relative;z-index:2;}
+    .PostSlide .innerContainer .handles{display:flex;justify-content:space-between;position:relative;top:-230px;width:103%;cursor:pointer;margin-right:-20px;margin-left:-20px;z-index:4;-webkit-tap-highlight-color:transparent;}
+    .PostSlide .dots{display:flex;align-items:center;justify-content:center;gap:10px;position:relative;}
+    .PostSlide .dots span{border-radius:10px;background:#CBCBCB;width:6px;height:6px;display:inline-block;cursor:pointer;}
+    .PostSlide .slider *{user-drag:none;-webkit-user-drag:none;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;}
+    .PostSlide .handles > span{transition:opacity 0.3s;}
+    .PostSlide .handles .prev{opacity:0;}
+    .PostSlide .handles .next{opacity:1;}
+    .PostSlide .handles *{user-select:none;}
+    .PostSlide .innerContainer .slider .slide{display:flex!important;flex-direction:column;justify-content:space-between;}
+    @media (min-width: 1280px){
+        .PostSlide .innerContainer .slider{width:1200px!important;margin:auto;}
+    }
+    @media (max-width: 1280px){
+        .PostSlide .innerContainer .handles{width:calc(100% + 30px)!important;margin-left:-15px!important;margin-right:-15px!important;}
+    }
+    @media (min-width: 960px) and (max-width: 1280px){
+        .PostSlide .innerContainer .slider{width:960px!important;}
+    }
+    @media (min-width: 960px) and (max-width: 1280px){
+        .PostSlide .innerContainer .slider{width:960px!important;}
+    }
+    @media (min-width: 640px) and (max-width: 960px){
+        .PostSlide .innerContainer .slider{width:640px!important;}
+    }
+    @media (max-width: 640px){
+        .PostSlide .innerContainer .slider{width:300px!important;}
+    }
+    .PostSlide .innerContainer,.PostSlide .slider,.PostSlide .handles,.PostSlide .dots{direction:ltr;}
+
+    .PostSlide .innerContainer .slider .slide>div{display:block;background-size: cover!important;background-position: center center!important;min-width:100%;height:100%;border-radius:8px}
+
+    .slide {
+        position: relative;
+        width: 100%;
+        height: 300px; /* Adjust height as needed */
+        overflow: hidden;
+    }
+    
+    .image-container {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
+    
+    .slide:hover .image-container {
+        transform: scale(1.1);
+    }
+    
+    .details {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: black;
+        background-color: white;
+        opacity: 0;
+        transition: opacity 0.3s;
+        cursor: pointer;
+    }
+    
+    .slide:hover .details {
+        opacity: 1;
+    }
+    
+
+
+
+    .homepage {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -916,7 +997,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 3px solid brown;
     margin: 0 7.5px 15px;
     overflow: hidden;
   
