@@ -511,19 +511,16 @@ h4{
     .header-text p{
         font-size: 20px;
     }
-    .txt{
-        font-size: 16px;
-    }
     nav .fa-solid{
         color: white;
         display: block;
-        font-size: 25px;
+        font-size: 15px;
     }
     nav .fa-regular{
         display: block;
         font-size: 16px;
         color: white;
-        margin-top: 10px;
+        margin-top: -200px;
         margin-left: 20px;
     }
     nav ul{
@@ -552,7 +549,7 @@ h4{
         top: 3px;
         left: 25px;
         cursor: pointer;
-        margin-top: -200px;
+        margin-top: 10px;
         color: white;
     }
     .sub-title{
