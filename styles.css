@@ -503,10 +503,15 @@ h4{
         background-image: url(images/black_-_13495\ \(540p\).gif);
     }
     .header-text img{
-        margin-top: 20%;
+        margin-top: 10%;
+        width: auto;
+        height: auto;
     }
     .header-text p{
-        font-size: 20px;
+        font-size: 10px;
+    }
+    .txt{
+font-size: 100px;
     }
     nav .fa-solid{
         color: white;
