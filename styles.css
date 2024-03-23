@@ -501,10 +501,10 @@ h4{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/black_-_13495\ \(540p\).gif);
-        margin-top: -20%;
+        margin-top: 15%;
     }
     .header-text{
-        /* margin-top: 100%; */
+        margin-top: 100%;
         font-size: 16px;
     }
     .header-text p{
