@@ -793,7 +793,12 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .services-list div p{
+        font-size: 13px;
+        font-weight: 300;
+        color: white;
+        font-family:sans-serif;
+    }
     .card1 .primary-heading {
         font-size: 2em;
     }
