@@ -501,28 +501,28 @@ h4{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/black_-_13495\ \(540p\).gif);
-        margin-top: 15%;
+        margin-top: -20%;
     }
     .header-text{
-        margin-top: 100%;
+        /* margin-top: 100%; */
         font-size: 16px;
     }
     .header-text p{
         font-size: 30px;
     }
-    .container p{
+    .txt{
         font-size: 16px;
     }
     nav .fa-solid{
-        color: #ff004f;
+        color: white;
         display: block;
         font-size: 25px;
     }
     nav .fa-regular{
         display: block;
         font-size: 16px;
-        color: brown;
-        margin-top: -250px;
+        color: white;
+        margin-top: 10px;
         margin-left: 20px;
     }
     nav ul{
