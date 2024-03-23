@@ -501,6 +501,7 @@ h4{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
+        margin-top: -10%;
     }
     .header-text{
         margin-top: 100%;
