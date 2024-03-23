@@ -500,14 +500,14 @@ h4{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
-        margin-top: 20%;
+        background-image: url(images/black_-_13495\ \(540p\).gif);
+        margin-top: 15%;
     }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
     }
-    .header-text h1{
+    .header-text p{
         font-size: 30px;
     }
     nav .fa-solid{
@@ -548,7 +548,7 @@ h4{
         top: 25px;
         left: 25px;
         cursor: pointer;
-        margin-top: -200px;
+        margin-top: 10px;
     }
     .sub-title{
         font-size: 40px;
