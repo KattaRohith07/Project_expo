@@ -517,6 +517,9 @@ h4{
         margin-top: -200px;
         margin-left: 20px;
     }
+    center .title1{
+        font-size: 20px;
+    }
     nav ul{
         background: #ff004f;
         position: fixed;
