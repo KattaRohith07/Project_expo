@@ -503,7 +503,7 @@ h4{
         background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .header-text p{
         font-size: 10px;
@@ -777,7 +777,9 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-
+.container .title1{
+    font-size: 20px
+}
     .card1 .primary-heading {
         font-size: 2em;
     }
