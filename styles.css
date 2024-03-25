@@ -511,8 +511,9 @@ h4{
     .header-text p{
         font-size: 10px;
     }
-    .container .txt{
-        font-size: 15px;font-weight: bold;
+    .container .txt,.title1{
+        font-size: 15px;
+        font-weight: bold;
     }
     nav .fa-solid{
         color: white;
