@@ -498,6 +498,9 @@ h4{
         font-size: 22px;
     }
 }
+.container .txt{
+    font-size: 30px;font-weight: bold;
+}
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
@@ -507,6 +510,9 @@ h4{
     }
     .header-text p{
         font-size: 10px;
+    }
+    .container .txt{
+        font-size: 15px;font-weight: bold;
     }
     nav .fa-solid{
         color: white;
@@ -985,7 +991,9 @@ a:hover {
   }
 
 @media screen and (max-width:500px) {
-
+.container .title1{
+    font-size: 20px;
+}
    
     .homepage .menu-item{
         width:510px;
