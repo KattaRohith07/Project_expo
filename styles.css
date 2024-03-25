@@ -517,7 +517,7 @@ h4{
         margin-top: -200px;
         margin-left: 20px;
     }
-    center .title1{
+    .container .title1{
         font-size: 20px;
     }
     nav ul{
@@ -1080,4 +1080,13 @@ a:hover {
     .title1{
         font-size: 20px;
     }
+}
+.container .title1{
+    font-size: 20px;
+    text-align: center; 
+    margin-top: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+     font-size: 80px;
 }
