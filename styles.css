@@ -518,7 +518,7 @@ h4{
         margin-left: 20px;
     }
     .container .title1{
-        font-size: 40px;
+        font-size: 35px;
     }
     nav ul{
         background: #ff004f;
@@ -981,9 +981,7 @@ a:hover {
 
 @media screen and (max-width:500px) {
 
-    .title1{
-        font-size: 20px;
-    }
+   
     .homepage .menu-item{
         width:510px;
     }
@@ -1032,9 +1030,7 @@ a:hover {
     .btn1.btn2 {
         padding: 8px 16px;
     }
-    .title1{
-        font-size: 20px;
-    }
+  
     
 }
 
@@ -1042,18 +1038,14 @@ a:hover {
     .btn1.btn2 {
         padding: 6px 12px;
     } 
-    .title1{
-        font-size: 20px;
-    }
+    
  } 
 
  @media screen and (max-width: 768px) {
     .sub-title {
         text-align: center;
     }
-    .title1{
-        font-size: 20px;
-    }
+    
 
     #about .about-col-2 {
         text-align: center;
@@ -1065,9 +1057,7 @@ a:hover {
     p .innovate{
       background-color: #080808;
     }
-    .title1{
-        font-size: 20px;
-    }
+    
 }
 
 
@@ -1077,9 +1067,7 @@ a:hover {
         margin-top:-430px;
         margin-left:150px;
     }
-    .title1{
-        font-size: 20px;
-    }
+   
 }
 .container .title1{
     font-size: 20px;
