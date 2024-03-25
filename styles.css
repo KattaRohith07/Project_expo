@@ -1078,3 +1078,70 @@ a:hover {
     font-weight: bold;
      font-size: 60px;
 }
+@media screen and (max-width:500px) {
+    .homepage .menu-item{
+        width:500px;
+    }
+    .menu-item-large{
+        width:520px;
+    }h1{
+        width: 110px;
+    }
+    title{
+        font-size: 20px;
+    }
+    .homepage h1{
+        margin-bottom: 10px;
+    }
+    .design-section h1{
+        margin-left: 10px;
+    }   
+    
+    .accordion h1{
+        text-align: center;
+    }
+    
+
+}
+
+ .btn1.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff004f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.PostSlide h1{
+    text-align: center;
+}
+
+#map .container{
+    text-align:center;
+}
+
+
+ @media screen and (max-width: 768px) {
+    .btn1.btn2 {
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn1.btn2 {
+        padding: 6px 12px;
+    } 
+ } 
+
+ @media screen and (max-width: 768px) {
+    .sub-title {
+        text-align: center;
+    }
+
+    #about .about-col-2 {
+        text-align: center;
+    }
+
+}
