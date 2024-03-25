@@ -1052,10 +1052,9 @@ a:hover {
 
 
 @media  screen and (max-width:500px) {
-    
-}
-nav .fa-regular{
-    color:white;
-    margin-top:-430px;
-    margin-left:150px;
+    nav .fa-regular{
+        color:white;
+        margin-top:-430px;
+        margin-left:150px;
+    }
 }
