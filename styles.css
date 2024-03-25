@@ -978,7 +978,7 @@ a:hover {
 
 @media screen and (max-width:500px) {
     .homepage .menu-item{
-        width:500px;
+        width:510px;
     }
     .menu-item-large{
         width:520px;
