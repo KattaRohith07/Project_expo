@@ -992,6 +992,9 @@ a:hover {
     font-weight: bold;
 }
 @media screen and (max-width:500px) {
+    html{
+    overflow-x: hidden;
+}
 .container .title1{
     font-size: 40px;
 }
