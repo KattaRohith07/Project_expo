@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    overflow-x: hidden;
     background: #080808;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -508,12 +509,12 @@ h4{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .header-text p{
-        font-size: 10px;
-    }
     .container .txt{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
+    }
+    .container .title1{
+        font-size: 30px;
     }
     nav .fa-solid{
         color: white;
@@ -562,9 +563,7 @@ h4{
     .sub-title{
         font-size: 3px;
     }
-    .logo{
-        width: 100%;
-    }
+    
     .about-col-1,.about-col-2{
         flex-basis: 100%;
     }
@@ -584,12 +583,6 @@ h4{
     .copyright{
         font-size: 14px;
     }
-    #msg{
-        color: #61b752;
-        margin-top: -40px;
-        display: block;
-    }
-   
       
 }
 
@@ -785,7 +778,7 @@ a:hover {
         margin-right: auto;
     }
 .container .title1{
-    font-size: 20px
+    font-size: 40px
 }
     .card1 .primary-heading {
         font-size: 2em;
@@ -803,7 +796,9 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .container .title1{
+        font-size: 40px
+    }
     .card1 .primary-heading {
         font-size: 2em;
     }
@@ -990,12 +985,17 @@ a:hover {
       margin-bottom: 6px;
     }
   }
-
+.container .title1{
+    font-size: 70px;
+    font-weight: bold;
+}
 @media screen and (max-width:500px) {
 .container .title1{
-    font-size: 20px;
+    font-size: 40px;
 }
-   
+.design-section p{
+    font-size: 16px;
+}
     .homepage .menu-item{
         width:510px;
     }
