@@ -874,7 +874,8 @@ a:hover {
     .PostSlide .handles > span{transition:opacity 0.3s;}
     .PostSlide .handles .prev{opacity:0;}
     .PostSlide .handles .next{opacity:1;}
-    .PostSlide .handles *{user-select:none;}
+    .PostSlide .handles *{user-select:none;
+    margin-left: 10px;margin-right: 10px;}
     .PostSlide .innerContainer .slider .slide{display:flex!important;flex-direction:column;justify-content:space-between;}
     @media (min-width: 1280px){
         .PostSlide .innerContainer .slider{width:1200px!important;margin:auto;}
@@ -1069,9 +1070,13 @@ a:hover {
     font-weight: bold;
     color: white;
     font-family:sans-serif;
+}{
+    margin-left: 50px;
+    margin-right: 10px;
 }
-
-
+.sub-title{
+    font-size: 40px;
+}
 .container .title1{
     font-size: 40px;
 }
