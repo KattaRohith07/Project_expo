@@ -1051,6 +1051,27 @@ a:hover {
 .container .logo{
     margin-top: 10%;
 }
+
+
+.services-list1 div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list1 div h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    font-family:sans-serif;
+}
+.services-list1 div p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family:sans-serif;
+}
+
+
 .container .title1{
     font-size: 40px;
 }
