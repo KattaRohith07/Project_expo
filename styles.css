@@ -996,8 +996,13 @@ a:hover {
     overflow-x: hidden;
 }
 .container .txt{
-    font-size: 20px;
+    margin-top: 10%;
+    font-size: 25px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+.container .logo{
+    margin-top: 10%;
 }
 .container .title1{
     font-size: 40px;
