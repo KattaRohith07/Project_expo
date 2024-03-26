@@ -1073,7 +1073,7 @@ nav ul{
     border-radius: 6px;
     color: white;
     font-family:sans-serif;
-    width: 100%;
+    width: 105%;
   }
 .services-list1 div i{
     font-size: 50px;
@@ -1110,17 +1110,10 @@ nav ul{
     width: 100%;
     margin-top: 20%;   
 }
-.services-list1 div{
-    height: 200px;;
-    background:#262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s,transform 0.5s;
-}
+
 .services-list2 div{
-    height: 320px;;
+    height: 320px;
+    width: 320px;
     background:#262626;
     padding: 40px;
     font-size: 13px;
