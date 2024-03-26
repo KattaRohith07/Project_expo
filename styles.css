@@ -376,6 +376,7 @@ h4{
   border-radius: 6px;
   color: white;
   font-family:sans-serif;
+  width: 100%;
 }
 
 .timeline-component {
@@ -386,6 +387,7 @@ h4{
     transition: 0.5s;
 }
 .timeline-component .timeline-content h3,p{    color: white;
+    font-size: 16px;
     font-family:sans-serif;
 }
 @media screen and (min-width: 768px) {
@@ -993,6 +995,31 @@ a:hover {
 .container .title1{
     font-size: 40px;
 }
+.services-list1 p{
+    font-size: 13px;
+}
+.homepage .title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-col-2 .sub-title{
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20%;
+    
+}
+.card1{
+    height: 100%;
+}
+.accordion h1{
+    width: 100%;
+}
+.card1 .primary-heading{
+    width: 90%;
+}
+.homepage .sub-title{
+    font-size: 35px;
+}
 .design-section p{
     font-size: 16px;
 }
@@ -1110,7 +1137,9 @@ a:hover {
     .design-section h1{
         margin-left: 10px;
     }   
-    
+    .timeline-content .timeline-component .timeline-content p{
+        font-size: 10px;
+    }
     .accordion h1{
         text-align: center;
     }
