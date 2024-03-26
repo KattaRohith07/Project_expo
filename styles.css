@@ -1066,6 +1066,15 @@ a:hover {
     width: 100%;
     margin-top: 20%;   
 }
+.services-list1 div{
+    height: 200px;;
+    background:#262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
 .services-list2 div{
     height: 320px;;
     background:#262626;
