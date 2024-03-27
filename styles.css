@@ -1138,6 +1138,7 @@ nav ul{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
+    margin-left: -20%;
 }
 .card1{
     height: 100%;
