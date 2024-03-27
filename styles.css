@@ -551,8 +551,8 @@ h4{
     font-size: 30px;font-weight: bold;
 }
 @media only screen and (max-width:600px){
-    #header{
-        background-image: url(images/vecteezy_technology-background-video-4k-hd-resolution_22653051.gif);
+    body{
+        background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1042,6 +1042,12 @@ a:hover {
     html{
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav ul{
     background-color: black;
