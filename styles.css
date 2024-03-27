@@ -1061,8 +1061,8 @@ nav ul{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif
 }
-.title{
-    font-size:23px ;
+h1 .title{
+    font-size:16px ;
 }
 .container .logo{
     margin-top: 10%;
