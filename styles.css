@@ -631,7 +631,7 @@ h4{
     }
      */
     .about-col-1,.about-col-2{
-        flex-basis: 100%;
+        flex-basis: 50%;
     }
     .about-col-1{
         margin-bottom: 30px
@@ -1153,7 +1153,9 @@ nav ul{
     width: 100%;
     margin-top: 20%;   
 }
-
+.about-col-1,.about-col-2{
+    flex-basis: 100%;
+}
 .services-list2 div{
     height: 320px;
     width: 310px;
