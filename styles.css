@@ -736,14 +736,14 @@ a:hover {
 }
 .card1 .primary-heading {
     text-align: center;
-    font-family: josefin sans;
+    font-family: 'SF Pro Display', sans-serif;
     color: white;
     padding-top: 50px ;
     font-size: 4em;
 }
 
 .paragraph {
-    font-family: josefin sans;
+    font-family: 'Product Sans', sans-serif;
     color: rgb(179, 179, 179);
     margin-left: 50px;
     margin-right: 25px;
