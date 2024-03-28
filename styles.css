@@ -165,6 +165,11 @@ h4{
     font-size: 50px;
     margin-bottom: 30px;
 }
+.sub-title1{
+    margin-left: 40%;
+    font-size: 60px;
+    font-weight: 600;
+}
 .services-list div h2{
     font-size: 20px;
     font-weight: 300;
@@ -719,6 +724,10 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.card1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
 
 .card1 .primary-heading {
     text-align: center;
@@ -1147,6 +1156,14 @@ nav ul{
 }
 .card1{
     height: 150%;
+}
+.card1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.sub-title1{
+    margin-left: 17%;
+    font-size: 50px;
 }
 .slide .details{
     font-size: 18px;
