@@ -590,23 +590,24 @@ h4{
         display: block;
         font-size: 16px;
         color: white;
-        margin-top: -200px;
-        margin-left: 20px;
+        margin-top: -420px;
+        margin-left: 120px;
+        font-weight: bold;
     }
     .container .txt1{
         font-size: 28px;
     }
-    nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top:50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
+    nav ul {
+    background-image: url(./images/smallwall.jpg);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+}
     nav ul li{
         display: block;
         margin: 25px;
