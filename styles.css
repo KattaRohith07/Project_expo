@@ -1281,7 +1281,12 @@ nav ul{
     }
     
 }
-
+@media screen and (max-width: 500px){
+.homepage .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+}
 
 @media  screen and (max-width:500px) {
     nav .fa-regular{
