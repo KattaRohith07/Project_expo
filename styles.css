@@ -296,7 +296,7 @@ h4{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 .services-list2 div{
     align-items: center;
