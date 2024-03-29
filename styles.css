@@ -631,7 +631,7 @@ h4{
     }
      */
     .about-col-1,.about-col-2{
-        flex-basis: 80%;
+        flex-basis: 100%;
     }
     .about-col-1{
         margin-bottom: 30px
@@ -817,7 +817,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 626px) {
-    /* .card1 {
+    .card1 {
         margin-top: 100px;
         margin-bottom: 100px;
         height :700px;
@@ -826,7 +826,7 @@ a:hover {
         background-color: #333541;
         margin-left: auto;
         margin-right: auto;
-    } */
+    }
 
     .header-mobile {
         display: block;
@@ -1175,6 +1175,7 @@ nav ul{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
+    margin-left: -15%;
     
 }
 .card1{
