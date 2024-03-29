@@ -1167,16 +1167,21 @@ nav ul{
     flex-basis: 100%;
 }
 .services-list2{
-    /* height: 320px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    /* margin-left: 15%; */
+}
+.services-list2 div{
+    height: 320px;
     width: 310px;
     background:#262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s,transform 0.5s; */
-    margin-left:-6px;
-    
+    transition: background 0.5s,transform 0.5s;
 }
 .card1{
     height: 150%;
