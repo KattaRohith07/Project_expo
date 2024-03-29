@@ -568,7 +568,7 @@ h4{
         scroll-behavior: smooth;
     }
     #header{
-        background-image: url(./images/smallwall.jpg);
+        background-image: url(https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -598,7 +598,7 @@ h4{
         font-size: 28px;
     }
     nav ul {
-    background: black;
+    background-image: url(./images/smallwall.jpg);
     position: fixed;
     top: 0;
     right: -200px;
@@ -1175,7 +1175,7 @@ nav ul{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
-    margin-left: -20%;
+    margin-left: -10%;
     
 }
 .card1{
