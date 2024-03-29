@@ -1166,16 +1166,16 @@ nav ul{
 .about-col-1,.about-col-2{
     flex-basis: 100%;
 }
-.services-list2 div{
-    height: 320px;
+.services-list2{
+    /* height: 320px;
     width: 310px;
     background:#262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s,transform 0.5s;
-    margin-left: -15%;
+    transition: background 0.5s,transform 0.5s; */
+    margin-left:-6px;
     
 }
 .card1{
