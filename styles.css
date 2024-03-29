@@ -1286,6 +1286,17 @@ nav ul{
     font-size: 18px;
     font-weight: bold;
 }
+.menu-item {
+    min-width: 30%;
+    height: 220px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
 }
 
 @media  screen and (max-width:500px) {
@@ -1308,6 +1319,7 @@ nav ul{
 @media screen and (max-width:500px) {
     .homepage .menu-item{
         width:500px;
+        height: 190px;
     }
     .menu-item-large{
         width:520px;
