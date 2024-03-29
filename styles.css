@@ -1071,6 +1071,10 @@ a:hover {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+.homepage .menu-item{
+    width:500px;
+    height: 190px;
+}
 body{
     background-color: black;
 }
@@ -1384,5 +1388,4 @@ nav ul{
     #about .about-col-2 {
         text-align: center;
     }
-
-}
+ }
