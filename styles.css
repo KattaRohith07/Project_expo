@@ -126,7 +126,7 @@ h4{
 }
 .btn1{
     display: block;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     width: fit-content;
     border: 1px solid #ff004f;
     padding: 14px 50px;
@@ -1108,9 +1108,9 @@ nav ul{
 .directory-menu{
     width:130%;
 }
-.btn1.btn2{
+/* .btn1.btn2{
     margin-top: 20%;
-}
+} */
 .timeline-content {
     padding: 20px;
     background: #1f1f1f;
