@@ -29,7 +29,11 @@ body{
 .container{
     padding: 10px 10%;
 }
-
+.about-col-1 img{
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+}
 nav {
     display: flex;
     flex-direction: row-reverse;
@@ -1111,6 +1115,7 @@ nav ul{
 .btn1.btn2{
     margin-top: 20%;
 }
+
 .timeline-content {
     padding: 20px;
     background: #1f1f1f;
@@ -1163,6 +1168,7 @@ nav ul{
     width: 100%;
     margin-top: 20%;   
 }
+
 .about-col-1,.about-col-2{
     flex-basis: 100%;
 }
