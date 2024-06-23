@@ -1094,6 +1094,9 @@ body{
 .menu-item .content:hover{
     width: 65%;
 }
+.services-list div{
+    height: 45vh;
+}
 
 .content .title{
     font-size: 10px;
