@@ -1097,6 +1097,9 @@ body{
 .services-list div{
     height: 45vh;
 }
+.timeline-content{
+    width: 10px;
+}
 
 .content .title{
     font-size: 10px;
@@ -1144,7 +1147,7 @@ nav ul{
     border-radius: 6px;
     color: white;
     font-family:sans-serif;
-    width: 105%;
+    width: 100%;
   }
 .services-list1 div i{
     font-size: 50px;
