@@ -26,6 +26,9 @@ body{
     
     
 }
+.title3{
+    font-size: 40px;
+}
 
 .container{
     padding: 10px 10%;
@@ -477,6 +480,9 @@ h4{
     background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+  }
+  .title3{
+    font-size: 30px;
   }
 }
 
@@ -1082,6 +1088,9 @@ a:hover {
 .homepage .menu-item{
     width:500px;
     height: 190px;
+}
+.title3{
+    font-size: 30px;
 }
 
 
